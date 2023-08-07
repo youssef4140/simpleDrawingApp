@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.canvas-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.canvas-container .toolbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #1f1f1f;
+  height: 100%;
+}
+.canvas-container .toolbox .unrotate-for-span {
+  background-color: #d3d3d3;
+  text-align: center;
+}
+.canvas-container .toolbox .unrotate-for-span .size {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: #2A79D7;
+  font-size: 23px;
+}
+.canvas-container .toolbox .slider-container {
+  width: 40px;
+  height: 287px;
+  overflow: hidden;
+  position: relative;
+  background-color: transparent;
+}
+.canvas-container .toolbox .slider-container .slider {
+  position: absolute;
+  rotate: 90deg;
+  left: -130px;
+  top: 115px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 300px;
+  height: 40px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  transition: 0.2s;
+  transition: opacity 0.2s;
+  cursor: pointer;
+}
+.canvas-container .toolbox .slider-container .slider:hover {
+  opacity: 1;
+}
+.canvas-container .toolbox .color-container .color {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 30px;
+  width: 40px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.canvas-container .toolbox .color-container .color::-webkit-color-swatch {
+  border-radius: 100vh;
+  border: 3px solid #2A79D7;
+}
+.canvas-container .toolbox .color-container button {
+  border: none;
+  outline: none;
+  background-color: #2A79D7;
+  text-align: center;
+  cursor: pointer;
+  height: 30px;
+  width: 40px;
+  border-radius: 5px;
+  margin: 5px 0 5px 0;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 100;
+}
+.canvas-container .expand {
+  height: 40px;
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  color: white;
+  background-color: black;
+  border-radius: 0 15px 15px 0px;
+  cursor: pointer;
+}
+.canvas-container .expand span {
+  display: block;
+  rotate: 90deg;
+}
+
+.hide {
+  overflow: hidden;
+  transition: 0.2s ease-in-out;
+  opacity: 0;
+}
+
+.show {
+  transition: 0.2s ease-in-out;
+  overflow: visible;
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 26px;
+  height: 35px;
+  background: #1f1f1f;
+  border-radius: 100vh;
+  cursor: pointer;
+}
+.slider::-webkit-slider-thumb:hover {
+  box-shadow: 0 0 0 1px #d3d3d3, 0 0 0 2px #2A79D7;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}/*# sourceMappingURL=draw.css.map */
