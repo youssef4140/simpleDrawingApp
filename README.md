@@ -1,5 +1,20 @@
-Drawing App
-This is a fun and easy-to-use drawing app that lets you create your own art right in your browser. You can draw with your mouse, pick different colors, and even erase your mistakes. Plus, you can change the thickness of your lines and the background color of your canvas.
+Drawing Application
 
-How to Use
-To start drawing, just open the index.html file in your web browser. Click and drag your mouse on the canvas to draw. You can pick a new color by clicking on the color picker, and change the thickness of your lines by moving the slider.
+This is a simple drawing application that allows you to draw on a canvas using your mouse.
+
+Features
+Draw on the canvas using your mouse
+Choose from a variety of colors using the color picker
+Adjust the line width using the slider
+Erase parts of your drawing using the eraser tool
+Clear the entire canvas with the click of a button
+Change the background color of the canvas
+
+Usage
+To use the drawing application, simply open the index.html file in your web browser. You can then start drawing on the canvas by clicking and dragging your mouse.
+
+To change the color of your drawing, click on the color picker and select a new color. You can also adjust the line width by moving the slider.
+
+you can use the eraser tool to erase parts of your drawing. Simply click on the eraser button and then click and drag your mouse over the area you want to erase.
+
+To clear the entire canvas, click on the clear button. This will remove all of your drawings from the canvas.
